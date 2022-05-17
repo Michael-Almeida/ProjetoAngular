@@ -29,6 +29,16 @@
       "name": "Notebook",
       "price": "6.000,00",
       "id": 6
+    },
+    {
+      "name": "Tela Computador",
+      "price": "1.500,00",
+      "id": 7
+    },
+    {
+      "name": "Calendário",
+      "price": "12,00",
+      "id": 8
     }
   ]
 }
