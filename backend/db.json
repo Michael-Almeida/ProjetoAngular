@@ -39,6 +39,11 @@
       "name": "Calendário",
       "price": "12,00",
       "id": 8
+    },
+    {
+      "name": "Lápis preto",
+      "price": "2,00",
+      "id": 9
     }
   ]
 }
