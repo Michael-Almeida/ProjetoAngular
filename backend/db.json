@@ -2,48 +2,29 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC preta",
-      "price": 5.89
-    },
-    {
-      "id": 2,
       "name": "Notebook Mac Pro",
       "price": 12000.89
     },
-    {
-      "id": 3,
-      "name": "Sansung S20+",
-      "price": 500.89
-    },
+
     {
       "name": "mouse Gamer",
-      "price": "400",
-      "id": 4
+      "price": 400,
+      "id": 2
     },
     {
-      "name": "Pc Gamer 2",
-      "price": "400",
-      "id": 5
+      "name": "Pc Gamer",
+      "price": 6.599,
+      "id": 3
     },
     {
       "name": "Notebook",
-      "price": "6.000,00",
-      "id": 6
+      "price": 6500,
+      "id": 4
     },
     {
       "name": "Tela Computador",
-      "price": "1.500,00",
+      "price": 1500,
       "id": 7
-    },
-    {
-      "name": "Calendário",
-      "price": "12,00",
-      "id": 8
-    },
-    {
-      "name": "Lápis preto",
-      "price": "2,00",
-      "id": 9
     }
   ]
 }

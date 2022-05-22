@@ -1,26 +1,50 @@
 <div class="mat-elevation-z8">
   <table mat-table class="full-width-table" matSort aria-label="Elements">
-    <!-- Id Column -->
+    <!-- Id Column 
+      Definição de como será cada uma das colunas das linhas
+      matColumnDef = definição de uma coluna
+      id e name tem de ser igual aos nomes do displayedColumns em components.ts 
+      Template de cada coluna   
+    -->
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
-      <td mat-cell *matCellDef="let row">{{row.id}}</td>
+      <td mat-cell *matCellDef="let row">{{ row.id }}</td>
     </ng-container>
 
-    <!-- Name Column -->
+    <!-- Name Column 
+      Como seria o template da tabela inteira
+    -->
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
-      <td mat-cell *matCellDef="let row">{{row.name}}</td>
+      <!-- Define colunas cabeçalho-->
+      <td mat-cell *matCellDef="let row">{{ row.name }}</td>
+      <!-- Define coluna-->
     </ng-container>
 
+    <!-- Price Column 
+      Como seria o template da tabela inteira
+    -->
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Preço</th>
+      <!-- Define colunas cabeçalho-->
+      <td mat-cell *matCellDef="let row">{{ row.price }}</td>
+      <!-- Define coluna-->
+    </ng-container>
+
+    <!-- Usa diretiva estuturar para criar o componente e passa as colunas exibidas na tabela (.ts) -->
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <!--Cabeçalho a ser exibido -->
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    <!-- Colunas a ser exibidas -->
   </table>
 
-  <mat-paginator #paginator
-      [length]="dataSource?.data?.length"
-      [pageIndex]="0"
-      [pageSize]="10"
-      [pageSizeOptions]="[5, 10, 50]"
-      aria-label="Select page">
+  <mat-paginator
+    #paginator
+    [length]="dataSource?.data?.length"
+    [pageIndex]="0"
+    [pageSize]="10"
+    [pageSizeOptions]="[5, 10, 50]"
+    aria-label="Select page"
+  >
   </mat-paginator>
 </div>
