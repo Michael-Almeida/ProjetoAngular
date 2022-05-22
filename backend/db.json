@@ -1,34 +1,29 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
-      "name": "mouse Gamer",
-      "price": 400,
-      "id": 2
-    },
-    {
-      "name": "Pc Gamer",
-      "price": 6.599,
-      "id": 3
-    },
-    {
-      "name": "Notebook",
-      "price": 6500,
-      "id": 4
-    },
-    {
-      "name": "Tela Computador",
-      "price": 1500,
-      "id": 5
+      "name": "Computador",
+      "price": "2500",
+      "id": 1
     },
     {
       "name": "Cadeira Gamer",
-      "price": 1400,
-      "id": 6
+      "price": "1200.89",
+      "id": 2
+    },
+    {
+      "name": "Teclado",
+      "price": "49.90",
+      "id": 3
+    },
+    {
+      "name": "Caneta Bic Preta",
+      "price": "2.00",
+      "id": 4
+    },
+    {
+      "name": "Cadeira Gamer Max1 ",
+      "price": "2500.00",
+      "id": 5
     }
   ]
 }
