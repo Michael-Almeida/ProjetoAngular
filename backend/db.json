@@ -5,7 +5,6 @@
       "name": "Notebook Mac Pro",
       "price": 12000.89
     },
-
     {
       "name": "mouse Gamer",
       "price": 400,
@@ -24,7 +23,12 @@
     {
       "name": "Tela Computador",
       "price": 1500,
-      "id": 7
+      "id": 5
+    },
+    {
+      "name": "Cadeira Gamer",
+      "price": 1400,
+      "id": 6
     }
   ]
 }
