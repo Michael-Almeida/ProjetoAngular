@@ -1,3 +1,4 @@
+import { HeaderService } from "./header.service";
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -6,8 +7,19 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit {
-  constructor() {}
+  constructor(private HeaderService: HeaderService) {}
 
   ngOnInit(): void {}
-}
 
+  get title(): String{
+    return this.HeaderService.headerData.title
+  }
+
+  get icon(): String{
+    return this.HeaderService.headerData.icon
+  }
+
+  get routeUrl(): String{
+    return this.HeaderService.headerData.routeUrl
+  }
+}
